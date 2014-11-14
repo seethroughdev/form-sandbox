@@ -10,6 +10,10 @@ var PT = React.PropTypes;
 
 var FieldMixin = {
 
+  propTypes: {
+    data: React.PropTypes.object
+  },
+
   getInitialState: function() {
     return {
       defaultValue: '',
