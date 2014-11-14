@@ -1,6 +1,8 @@
 'use strict';
 
 var validate = require('./validate');
+var React = require('react');
+var PT = React.PropTypes;
 
 /**
 * @jsx React.DOM

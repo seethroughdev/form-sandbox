@@ -31,6 +31,20 @@ var formData = [
     label: 'Last',
     helpMsg: 'Enter your last name',
     errorMsg: 'Must be a real last name!'
+  },
+  {
+    label: 'Age',
+    type: 'number',
+    helpMsg: 'Enter your age',
+    min: 10,
+    max: 100,
+    errorMsg: 'Must be your real age!'
+  },
+  {
+    placeholder: 'Something nice.',
+    label: 'Message:',
+    required: true,
+    errorMsg: 'This is required!'
   }
 ];
 
